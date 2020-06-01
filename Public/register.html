@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+      input {
+        width: 200px;
+        height: 50px;
+      }
+
+      button {
+        width: 150px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body style="background-color: sandybrown;">
+    <form action="register" method="POST">
+      <input
+        type="text"
+        placeholder="Enter your name"
+        name="userName"
+        required
+      />
+      <input
+        type="email"
+        placeholder="Enter your email id"
+        name="emailId"
+        required
+      />
+      <input
+        type="password"
+        placeholder="Enter password"
+        name="password"
+        required
+      />
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
